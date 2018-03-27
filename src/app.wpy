@@ -1,0 +1,37 @@
+<style></style>
+
+<script>
+
+import wepy from 'wepy';
+import 'wepy-async-function';
+export default class extends wepy.app {
+
+    config = {
+        'pages': [
+            'pages/index',
+        ],
+        'window': {
+            'backgroundTextStyle': 'light',
+            'navigationBarBackgroundColor': '#0068C4',
+            'navigationBarTitleText': 'echarts微信小程序wepy版本',
+            'navigationBarTextStyle': 'white',
+            'enablePullDownRefresh': false
+        }
+    };
+
+    constructor() {
+        super();
+        this.use('promisify');
+        this.use('requestfix');
+    }
+
+    globalData = {
+    };
+
+    onLaunch() {
+    }
+
+    onError (e) {
+    }
+}
+</script>
