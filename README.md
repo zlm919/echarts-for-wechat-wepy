@@ -1,4 +1,4 @@
-# echarts-for-weixin-wepy
+# echarts-for-wechat-wepy
 
 
 echarts 微信小程序wepy组件封装。
