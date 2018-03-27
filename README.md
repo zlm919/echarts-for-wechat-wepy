@@ -13,7 +13,7 @@ npm install wepy-cli -g
 
 ### 2. 下载源代码
 ```bash
-git clone git@github.com:zlm919/echarts-for-wechat-wepy.git
+git clone https://github.com/zlm919/echarts-for-wechat-wepy.git
 ```
 
 ### 3. 安装开发依赖
